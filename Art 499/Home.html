@@ -82,11 +82,17 @@
 				<a class="mCell" data-text="PERSONAL EXPERIENCE"    href="Personal_Experience.html"><span>PERSONAL EXPERIENCE</span></a>
 				<a class="mCell" data-text="CONTACT"     href="Contact.html"            ><span>CONTACT</span></a>
 			</div>
+			<p class="mClose"></p>
 		</div>
 	</aside>
 	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
 	<script type="text/javascript">
-		//$(".menue")
+		$(".menue").click(function(){
+			$(".menuCover").addClass("is-scale-show");
+		})
+		$(".mClose").click(function(){
+			$(".menuCover").removeClass("is-scale-show");
+		})
 	</script>
 </body>
 </html>
