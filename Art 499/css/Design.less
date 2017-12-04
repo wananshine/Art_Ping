@@ -1,0 +1,223 @@
+@charset "UTF-8";
+/* CSS Document */
+@import (reference) 'base.less';
+
+
+html,body{
+	padding: 0;
+	margin: 0;
+	.all;
+	height: @full;
+}
+
+@media screen and (max-width: 768px){
+	.imgCell{
+		width: 50% !important;
+	}
+};
+@media screen and (min-width:769px) and (max-width:960px){
+	.imgCell{
+		width: 33.3333333% !important;
+	}
+};
+@media screen and (min-width:961px) and (max-width:1200){
+	.imgCell{
+		width: 20% !important;
+	}
+};
+@media screen and (min-width: 1201px){
+	.imgCell{
+		width: 20% !important;
+	}
+};
+
+
+.imgCell:nth-of-type(13){
+	//transition: all 1s ease 1s;
+	animation: focused 10s ease 1s infinite;
+	-webkit-animation: focused 10s ease 1s infinite;
+}
+.imgCell:nth-of-type(2){
+	//transition: all 1s ease 1s;
+	animation: focused 38s ease 1s infinite;
+	-webkit-animation: focused 38s ease 1s infinite;
+}
+
+.imgCell:nth-of-type(3){
+	//transition: all 1s ease 1s;
+	animation: focused 15s ease 1s infinite;
+	-webkit-animation: focused 15s ease 1s infinite;
+}
+.imgCell:nth-of-type(4){
+	//transition: all 1s ease 1s;
+	animation: focused 52s ease 1s infinite;
+	-webkit-animation: focused 52s ease 1s infinite;
+}
+
+.imgCell:nth-of-type(21){
+	//transition: all 1s ease 1s;
+	animation: focused 48s ease 1s infinite;
+	-webkit-animation: focused 48s ease 1s infinite;
+}
+.imgCell:nth-of-type(22){
+	//transition: all 1s ease 1s;
+	animation: focused 52s ease 1s infinite;
+	-webkit-animation: focused 52s ease 1s infinite;
+}
+.imgCell:nth-of-type(7){
+	//transition: all 1s ease 1s;
+	animation: focused 55s ease 1s infinite;
+	-webkit-animation: focused 55s ease 1s infinite;
+}
+
+.imgCell:nth-of-type(17){
+	-webkit-animation: focused 66s ease 1s infinite;
+	animation: focused 66s ease 1s infinite;
+	//transition: all 5s ease 1s;
+}
+.imgCell:nth-of-type(9){
+	//transition: all 1s ease 1s;
+	animation: focused 69s ease 1s infinite;
+	-webkit-animation: focused 69s ease 1s infinite;
+}
+.imgCell:nth-of-type(10){
+	//transition: all 1s ease 1s;
+	animation: focused 38s ease 1s infinite;
+	-webkit-animation: focused 38s ease 1s infinite;
+}
+.imgCell:nth-of-type(11){
+	//transition: all 1s ease 1s;
+	animation: focused 28s ease 1s infinite;
+	-webkit-animation: focused 28s ease 1s infinite;
+}
+
+.imgCell:nth-of-type(12){
+	//transition: all 1s ease 1s;
+	animation: focused 30s ease 1s infinite;
+	-webkit-animation: focused 30s ease 1s infinite;
+}
+
+.imgCell:nth-of-type(18){
+	-webkit-animation: focused 38s ease 1s infinite;
+	animation: focused 38s ease 1s infinite;
+	//transition: all 5s ease 1s;
+}
+
+.imgCell:nth-of-type(14){
+	//transition: all 1s ease 1s;
+	animation: focused 39s ease 1s infinite;
+	-webkit-animation: focused 39s ease 1s infinite;
+}
+
+.imgCell:nth-of-type(13){
+	//transition: all 1s ease 1s;
+	animation: focused 26s ease 1s infinite;
+	-webkit-animation: focused 26s ease 1s infinite;
+}
+
+.imgCell:nth-of-type(16){
+	//transition: all 1s ease 1s;
+	animation: focused 19s ease 1s infinite;
+	-webkit-animation: focused 19s ease 1s infinite;
+}
+
+.imgCell:nth-of-type(8){
+	//transition: all 1s ease 1s;
+	animation: focused 44s ease 1s infinite;
+	-webkit-animation: focused 44s ease 1s infinite;
+}
+
+.imgCell:nth-of-type(1){
+	//transition: all 1s ease 1s;
+	animation: focused 54s ease 1s infinite;
+	-webkit-animation: focused 54s ease 1s infinite;
+}
+
+
+.imgCell:nth-of-type(19){
+	//transition: all 1s ease 1s;
+	animation: focused 65s ease 1s infinite;
+	-webkit-animation: focused 65s ease 1s infinite;
+}
+
+.imgCell:nth-of-type(20){
+	//transition: all 1s ease 1s;
+	animation: focused 76s ease 1s infinite;
+	-webkit-animation: focused 76s ease 1s infinite;
+}
+
+.imgCell:nth-of-type(5){
+	//transition: all 1s ease 1s;
+	animation: focused 68s ease 1s infinite;
+	-webkit-animation: focused 68s ease 1s infinite;
+}
+
+.imgCell:nth-of-type(6){
+	//transition: all 1s ease 1s;
+	animation: focused 43s ease 1s infinite;
+	-webkit-animation: focused 43s ease 1s infinite;
+}
+
+.imgCell:nth-of-type(23){
+	//transition: all 1s ease 1s;
+	animation: focused 16s ease 1s infinite;
+	-webkit-animation: focused 16s ease 1s infinite;
+}
+
+
+
+@keyframes focused{
+	0% {
+		transform: rotateY(0deg);
+		-webkit-transform: rotateY(0deg);
+	}
+
+	20% {
+		transform: rotateY(0deg);
+		-webkit-transform: rotateY(0deg);
+	}
+
+	40% {
+		transform: rotateY(0deg);
+		-webkit-transform: rotateY(0deg);
+	}
+
+	60% {
+		transform: rotateY(0deg);
+		-webkit-transform: rotateY(0deg);
+	}
+
+	80% {
+		transform: rotateY(0deg);
+		-webkit-transform: rotateY(0deg);
+	}
+
+	100% {
+		transform: rotateY(360deg);
+		-webkit-transform: rotateY(360deg);
+	}
+}
+
+
+.imgContainer{
+	.all;
+	.imgInner{
+		.all;
+		//min-width: 996px;
+		.imgwrap{
+			.flexbox;
+			.imgCell{
+				display: block;
+				width: 20%;
+				.flexitem;
+				img{
+					display: block;
+					.all;
+					margin: auto;
+				}
+			}
+		}
+	}
+}
+
+

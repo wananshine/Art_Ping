@@ -1,0 +1,77 @@
+@charset "UTF-8";
+/* CSS Document */
+
+
+.Main1{
+	background-color: lightgray;
+	padding-top: 0;
+	margin-top: 0;	
+}
+
+.mainp img{
+	height: 40%;
+	width: 100%;
+	
+}
+
+.wholeEX{
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 5%;
+	padding-bottom: 2%;
+	font-size: 18pt;
+}
+
+.h1{
+	font-size: 20pt;
+	margin-top: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: "Metrophobic Regular";
+	position: relative;
+	text-align: center;
+	
+}
+
+.university{
+	margin-top: 10%;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 5%;
+	background-color: lightgray;
+	
+}
+
+.uni{
+	margin-left: 10%;
+	margin-right: 10%;
+	border: solid;
+	border-color: white;
+}
+
+.uni2{
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-bottom: 5%;
+	text-align: center;
+	
+}
+
+.all{
+	margin-top: 10%;
+	display: inline-block;
+	height: 100px;
+	
+	
+}
+
+.chinaEX{
+	margin-top: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.china1{
+	width: 60%;
+	padding-right: 10%;	
+}

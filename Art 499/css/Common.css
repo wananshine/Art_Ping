@@ -1,0 +1,67 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{
+	width:100%;
+	margin-left: auto;
+	margin-right: auto;
+	border: none;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
+.top{
+	width: 100%;
+	position: relative;
+	margin-top: 0;
+	
+	
+	
+}
+
+.logo{
+	float:left;
+	width: 10%;
+	
+
+
+	
+}
+
+.menue{
+	float: right;
+	position: relative;
+	text-align: right;
+	padding-right: 50%;
+	font-family: "Metrophobic Regular";
+	color: black;
+	
+}
+
+.bottom_nav{
+	margin-top: 10%;
+	display: block;
+	background-color: cadetblue;
+	margin-left: auto;
+	margin-right: auto;
+	height: 50%;
+	
+	
+	
+}
+.bottom_nav td{
+	width: 16%;
+}
+
+.bottom_nav a{
+	
+	margin-left: 10%;
+	margin-right: 10%;
+	text-align: center;
+	color: white;
+	border: none;
+	font-size: 10pt;
+	font-family: "Metrophobic Regular";
+	text-decoration: none;
+}

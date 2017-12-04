@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.mainp{
+	display: inline-block;
+	overflow: hidden;
+	position: center;
+	height: 500px;
+	width: 100%;
+	
+}
+.mainp{
+	margin-bottom: 10%;
+
+}
+.bottom_all{
+	display: inline-block;
+	background-color: lightgray;
+	padding-bottom: 1%;
+	margin-top: 10%;
+}
+
+.bottom_pic{
+	display: inline-block;
+	overflow: hidden;
+	position: center;
+	height: 500px;
+	
+}
+
+.bottom_all :nth-child(2){
+	margin-top: 5%;
+	padding-left: 10%;
+	padding-right: 10%;
+	
+}
+
+.Main1{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+
+.photo{
+	border: solid;
+	border-color: lightgray;
+	border-width: 15px;
+	background-color: lightgray;
+}
+
+.photo:nth-child(odd){
+	margin-left: 10%;
+}
+
+.photo_text:nth-child(odd){
+	padding-right: 10%;
+}
+
+.photo_text:nth-child(even){
+	padding-left: 10%;
+}
+
+.photor1{
+	margin-top: 10%;
+}
+

@@ -1,0 +1,14 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.contact_info{
+	width: 100%;
+	background-color: lightgray;
+	padding-left: 10%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+}
+
+.bottom_nav{
+	margin-top: 39.5%;
+}
